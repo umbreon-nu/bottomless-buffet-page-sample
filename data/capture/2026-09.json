@@ -1,0 +1,967 @@
+{
+  "schemaVersion": 1,
+  "source": "capture",
+  "month": "2026-09",
+  "attempts": [
+    {
+      "id": "sample-capture-2026-09-0001",
+      "floor": 101,
+      "mapId": "20F",
+      "result": "success",
+      "recordedAt": "2026-09-01T00:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0002",
+      "floor": 102,
+      "mapId": "21F",
+      "result": "success",
+      "recordedAt": "2026-09-01T00:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0003",
+      "floor": 103,
+      "mapId": "22F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T00:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0004",
+      "floor": 104,
+      "mapId": "23F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T00:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0005",
+      "floor": 105,
+      "mapId": "24F",
+      "result": "success",
+      "recordedAt": "2026-09-01T00:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0006",
+      "floor": 106,
+      "mapId": "25F",
+      "result": "success",
+      "recordedAt": "2026-09-01T00:50:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0007",
+      "floor": 107,
+      "mapId": "26F",
+      "result": "success",
+      "recordedAt": "2026-09-01T01:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0008",
+      "floor": 108,
+      "mapId": "27F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T01:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0009",
+      "floor": 109,
+      "mapId": "28F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T01:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0010",
+      "floor": 110,
+      "mapId": "29F",
+      "result": "success",
+      "recordedAt": "2026-09-01T01:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0011",
+      "floor": 111,
+      "mapId": "30F",
+      "result": "success",
+      "recordedAt": "2026-09-01T01:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0012",
+      "floor": 112,
+      "mapId": "31F",
+      "result": "success",
+      "recordedAt": "2026-09-01T01:50:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0013",
+      "floor": 113,
+      "mapId": "32F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T02:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0014",
+      "floor": 114,
+      "mapId": "33F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T02:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0015",
+      "floor": 115,
+      "mapId": "34F",
+      "result": "success",
+      "recordedAt": "2026-09-01T02:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0016",
+      "floor": 101,
+      "mapId": "35F",
+      "result": "success",
+      "recordedAt": "2026-09-01T02:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0017",
+      "floor": 102,
+      "mapId": "36F",
+      "result": "success",
+      "recordedAt": "2026-09-01T02:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0018",
+      "floor": 103,
+      "mapId": "37F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T02:50:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0019",
+      "floor": 104,
+      "mapId": "38F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T03:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0020",
+      "floor": 105,
+      "mapId": "39F",
+      "result": "success",
+      "recordedAt": "2026-09-01T03:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0021",
+      "floor": 106,
+      "mapId": "40F",
+      "result": "success",
+      "recordedAt": "2026-09-01T03:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0022",
+      "floor": 107,
+      "mapId": "41F",
+      "result": "success",
+      "recordedAt": "2026-09-01T03:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0023",
+      "floor": 108,
+      "mapId": "42F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T03:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0024",
+      "floor": 109,
+      "mapId": "43F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T03:50:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0025",
+      "floor": 110,
+      "mapId": "44F",
+      "result": "success",
+      "recordedAt": "2026-09-01T04:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0026",
+      "floor": 111,
+      "mapId": "45F",
+      "result": "success",
+      "recordedAt": "2026-09-01T04:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0027",
+      "floor": 112,
+      "mapId": "46F",
+      "result": "success",
+      "recordedAt": "2026-09-01T04:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0028",
+      "floor": 113,
+      "mapId": "47F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T04:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0029",
+      "floor": 114,
+      "mapId": "48F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T04:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0030",
+      "floor": 115,
+      "mapId": "49F",
+      "result": "success",
+      "recordedAt": "2026-09-01T04:50:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0031",
+      "floor": 101,
+      "mapId": "50F",
+      "result": "success",
+      "recordedAt": "2026-09-01T05:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0032",
+      "floor": 102,
+      "mapId": "51F",
+      "result": "success",
+      "recordedAt": "2026-09-01T05:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0033",
+      "floor": 103,
+      "mapId": "52F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T05:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0034",
+      "floor": 104,
+      "mapId": "53F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T05:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0035",
+      "floor": 105,
+      "mapId": "54F",
+      "result": "success",
+      "recordedAt": "2026-09-01T05:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0036",
+      "floor": 106,
+      "mapId": "55F",
+      "result": "success",
+      "recordedAt": "2026-09-01T05:50:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0037",
+      "floor": 107,
+      "mapId": "56F",
+      "result": "success",
+      "recordedAt": "2026-09-01T06:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0038",
+      "floor": 108,
+      "mapId": "57F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T06:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0039",
+      "floor": 109,
+      "mapId": "58F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T06:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0040",
+      "floor": 110,
+      "mapId": "59F",
+      "result": "success",
+      "recordedAt": "2026-09-01T06:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0041",
+      "floor": 111,
+      "mapId": "60F",
+      "result": "success",
+      "recordedAt": "2026-09-01T06:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0042",
+      "floor": 112,
+      "mapId": "61F",
+      "result": "success",
+      "recordedAt": "2026-09-01T06:50:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0043",
+      "floor": 113,
+      "mapId": "62F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T07:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0044",
+      "floor": 114,
+      "mapId": "63F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T07:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0045",
+      "floor": 115,
+      "mapId": "64F",
+      "result": "success",
+      "recordedAt": "2026-09-01T07:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0046",
+      "floor": 101,
+      "mapId": "65F",
+      "result": "success",
+      "recordedAt": "2026-09-01T07:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0047",
+      "floor": 102,
+      "mapId": "66F",
+      "result": "success",
+      "recordedAt": "2026-09-01T07:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0048",
+      "floor": 103,
+      "mapId": "67F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T07:50:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0049",
+      "floor": 104,
+      "mapId": "68F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T08:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0050",
+      "floor": 105,
+      "mapId": "69F",
+      "result": "success",
+      "recordedAt": "2026-09-01T08:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0051",
+      "floor": 106,
+      "mapId": "70F",
+      "result": "success",
+      "recordedAt": "2026-09-01T08:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0052",
+      "floor": 107,
+      "mapId": "71F",
+      "result": "success",
+      "recordedAt": "2026-09-01T08:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0053",
+      "floor": 108,
+      "mapId": "72F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T08:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0054",
+      "floor": 109,
+      "mapId": "73F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T08:50:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0055",
+      "floor": 110,
+      "mapId": "74F",
+      "result": "success",
+      "recordedAt": "2026-09-01T09:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0056",
+      "floor": 111,
+      "mapId": "75F",
+      "result": "success",
+      "recordedAt": "2026-09-01T09:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0057",
+      "floor": 112,
+      "mapId": "76F",
+      "result": "success",
+      "recordedAt": "2026-09-01T09:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0058",
+      "floor": 113,
+      "mapId": "77F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T09:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0059",
+      "floor": 114,
+      "mapId": "78F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T09:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0060",
+      "floor": 115,
+      "mapId": "79F",
+      "result": "success",
+      "recordedAt": "2026-09-01T09:50:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0061",
+      "floor": 101,
+      "mapId": "80F",
+      "result": "success",
+      "recordedAt": "2026-09-01T10:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0062",
+      "floor": 102,
+      "mapId": "81F",
+      "result": "success",
+      "recordedAt": "2026-09-01T10:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0063",
+      "floor": 103,
+      "mapId": "82F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T10:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0064",
+      "floor": 104,
+      "mapId": "83F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T10:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0065",
+      "floor": 105,
+      "mapId": "84F",
+      "result": "success",
+      "recordedAt": "2026-09-01T10:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0066",
+      "floor": 106,
+      "mapId": "85F",
+      "result": "success",
+      "recordedAt": "2026-09-01T10:50:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0067",
+      "floor": 107,
+      "mapId": "86F",
+      "result": "success",
+      "recordedAt": "2026-09-01T11:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0068",
+      "floor": 108,
+      "mapId": "87F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T11:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0069",
+      "floor": 109,
+      "mapId": "88F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T11:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0070",
+      "floor": 110,
+      "mapId": "89F",
+      "result": "success",
+      "recordedAt": "2026-09-01T11:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0071",
+      "floor": 111,
+      "mapId": "blue_A",
+      "result": "success",
+      "recordedAt": "2026-09-01T11:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0072",
+      "floor": 112,
+      "mapId": "blue_B",
+      "result": "success",
+      "recordedAt": "2026-09-01T11:50:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0073",
+      "floor": 113,
+      "mapId": "blue_C",
+      "result": "failure",
+      "recordedAt": "2026-09-01T12:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0074",
+      "floor": 114,
+      "mapId": "blue_D",
+      "result": "failure",
+      "recordedAt": "2026-09-01T12:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0075",
+      "floor": 115,
+      "mapId": "blue_E",
+      "result": "success",
+      "recordedAt": "2026-09-01T12:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0076",
+      "floor": 101,
+      "mapId": "blue_F",
+      "result": "success",
+      "recordedAt": "2026-09-01T12:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0077",
+      "floor": 102,
+      "mapId": "01F",
+      "result": "success",
+      "recordedAt": "2026-09-01T12:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0078",
+      "floor": 103,
+      "mapId": "02F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T12:50:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0079",
+      "floor": 104,
+      "mapId": "03F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T13:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0080",
+      "floor": 105,
+      "mapId": "04F",
+      "result": "success",
+      "recordedAt": "2026-09-01T13:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0081",
+      "floor": 106,
+      "mapId": "05F",
+      "result": "success",
+      "recordedAt": "2026-09-01T13:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0082",
+      "floor": 107,
+      "mapId": "06F",
+      "result": "success",
+      "recordedAt": "2026-09-01T13:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0083",
+      "floor": 108,
+      "mapId": "07F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T13:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0084",
+      "floor": 109,
+      "mapId": "08F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T13:50:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0085",
+      "floor": 110,
+      "mapId": "09F",
+      "result": "success",
+      "recordedAt": "2026-09-01T14:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0086",
+      "floor": 111,
+      "mapId": "10F",
+      "result": "success",
+      "recordedAt": "2026-09-01T14:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0087",
+      "floor": 112,
+      "mapId": "11F",
+      "result": "success",
+      "recordedAt": "2026-09-01T14:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0088",
+      "floor": 113,
+      "mapId": "12F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T14:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0089",
+      "floor": 114,
+      "mapId": "13F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T14:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0090",
+      "floor": 115,
+      "mapId": "14F",
+      "result": "success",
+      "recordedAt": "2026-09-01T14:50:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0091",
+      "floor": 101,
+      "mapId": "15F",
+      "result": "success",
+      "recordedAt": "2026-09-01T15:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0092",
+      "floor": 102,
+      "mapId": "16F",
+      "result": "success",
+      "recordedAt": "2026-09-01T15:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0093",
+      "floor": 103,
+      "mapId": "17F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T15:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0094",
+      "floor": 104,
+      "mapId": "18F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T15:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0095",
+      "floor": 105,
+      "mapId": "19F",
+      "result": "success",
+      "recordedAt": "2026-09-01T15:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0096",
+      "floor": 106,
+      "mapId": "20F",
+      "result": "success",
+      "recordedAt": "2026-09-01T15:50:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0097",
+      "floor": 107,
+      "mapId": "21F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T16:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0098",
+      "floor": 108,
+      "mapId": "22F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T16:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0099",
+      "floor": 109,
+      "mapId": "23F",
+      "result": "success",
+      "recordedAt": "2026-09-01T16:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0100",
+      "floor": 110,
+      "mapId": "24F",
+      "result": "success",
+      "recordedAt": "2026-09-01T16:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0101",
+      "floor": 111,
+      "mapId": "25F",
+      "result": "success",
+      "recordedAt": "2026-09-01T16:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0102",
+      "floor": 112,
+      "mapId": "26F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T16:50:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0103",
+      "floor": 113,
+      "mapId": "27F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T17:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0104",
+      "floor": 114,
+      "mapId": "28F",
+      "result": "success",
+      "recordedAt": "2026-09-01T17:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0105",
+      "floor": 115,
+      "mapId": "29F",
+      "result": "success",
+      "recordedAt": "2026-09-01T17:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0106",
+      "floor": 101,
+      "mapId": "30F",
+      "result": "success",
+      "recordedAt": "2026-09-01T17:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0107",
+      "floor": 102,
+      "mapId": "31F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T17:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0108",
+      "floor": 103,
+      "mapId": "32F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T17:50:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0109",
+      "floor": 104,
+      "mapId": "33F",
+      "result": "success",
+      "recordedAt": "2026-09-01T18:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0110",
+      "floor": 105,
+      "mapId": "34F",
+      "result": "success",
+      "recordedAt": "2026-09-01T18:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0111",
+      "floor": 106,
+      "mapId": "35F",
+      "result": "success",
+      "recordedAt": "2026-09-01T18:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0112",
+      "floor": 107,
+      "mapId": "36F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T18:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0113",
+      "floor": 108,
+      "mapId": "37F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T18:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0114",
+      "floor": 109,
+      "mapId": "38F",
+      "result": "success",
+      "recordedAt": "2026-09-01T18:50:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0115",
+      "floor": 110,
+      "mapId": "39F",
+      "result": "success",
+      "recordedAt": "2026-09-01T19:00:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0116",
+      "floor": 111,
+      "mapId": "40F",
+      "result": "success",
+      "recordedAt": "2026-09-01T19:10:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0117",
+      "floor": 112,
+      "mapId": "41F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T19:20:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0118",
+      "floor": 113,
+      "mapId": "42F",
+      "result": "failure",
+      "recordedAt": "2026-09-01T19:30:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0119",
+      "floor": 114,
+      "mapId": "43F",
+      "result": "success",
+      "recordedAt": "2026-09-01T19:40:00Z",
+      "source": "capture"
+    },
+    {
+      "id": "sample-capture-2026-09-0120",
+      "floor": 115,
+      "mapId": "44F",
+      "result": "success",
+      "recordedAt": "2026-09-01T19:50:00Z",
+      "source": "capture"
+    }
+  ]
+}

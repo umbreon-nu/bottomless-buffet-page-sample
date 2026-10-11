@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="無限食堂の構成別クリア率ダッシュボードの実装サンプル。架空の記録で集計・検索を試せます。" />
+    <title>無限食堂 クリア率ダッシュボード — サンプル</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <p class="eyebrow">BOTTOMLESS BUFFET · SAMPLE</p>
+      <h1>無限食堂 クリア率ダッシュボード</h1>
+      <p class="sample-notice"><strong>実装サンプル</strong> — 表示する挑戦記録・成功率はすべて架空です。同梱の画像はプレースホルダーです。</p>
+      <p class="subtitle">無限食堂101F以降の試行を、01F〜99Fと専用パターン（青A〜青F）ごとに比較します。</p>
+    </header>
+
+    <main>
+      <section class="summary" aria-label="集計の概要">
+        <article><span>試行数</span><strong id="total-attempts">—</strong></article>
+        <article><span>成功数</span><strong id="total-successes">—</strong></article>
+        <article><span>全体成功率</span><strong id="total-rate">—</strong></article>
+        <article title="成功記録のうち100+3n階（103F、106F…）だけをクリアとして集計します"><span>最高クリア階層</span><strong id="highest-clear-floor">—</strong></article>
+      </section>
+
+      <section class="panel controls" aria-label="絞り込みと並び替え">
+        <div>
+          <h2>比較条件</h2>
+          <p>挑戦エリアを選択すると、そのエリアの試行だけで集計します。</p>
+        </div>
+        <div class="filter-fields">
+          <label>挑戦エリア
+            <select id="challenge-area">
+              <option value="">すべて</option>
+            </select>
+          </label>
+          <label>並び替え
+            <select id="sort-order">
+              <option value="rate-desc">成功率が高い順</option>
+              <option value="rate-asc">成功率が低い順</option>
+              <option value="id-asc">構成ID順</option>
+              <option value="attempts-desc">試行数が多い順</option>
+            </select>
+          </label>
+        </div>
+      </section>
+
+      <section class="panel configuration-filter" aria-label="詳細検索">
+        <div>
+          <h2>詳細検索</h2>
+          <p>必要ポイントと開始時に見えたオオモノ／キワモノで、候補を絞れます。ボタンは複数選択でき、選んだ種類をすべて含む構成を表示します。</p>
+        </div>
+        <div class="configuration-filter-fields">
+          <label>必要ポイント
+            <select id="quota-filter">
+              <option value="">すべて</option>
+              <option value="2100">2100</option>
+              <option value="2400">2400</option>
+              <option value="2600">2600</option>
+            </select>
+          </label>
+          <button id="reset-configuration-filters" class="button-quiet" type="button">条件をリセット</button>
+        </div>
+        <div id="spawn-filters" class="spawn-filter-groups"></div>
+        <p id="configuration-count" aria-live="polite"></p>
+      </section>
+
+      <p id="status-message" class="status-message" role="status"></p>
+
+      <details class="panel recent-attempts">
+        <summary>直近20回の挑戦記録</summary>
+        <p>選択した挑戦エリアの記録を、新しい順に最大20件表示します。</p>
+        <div id="recent-history" class="history-list" aria-live="polite"></div>
+      </details>
+
+      <section class="dashboard-heading">
+        <div>
+          <h2>構成別クリア率</h2>
+          <p id="filter-description">全記録</p>
+          <p class="selection-hint">必要ポイント・初期湧きの条件を選ぶと、該当するカードだけが表示されます。画像が未設定の構成にはプレースホルダーを表示します。</p>
+        </div>
+        <p class="legend"><span class="legend-success"></span>成功率 <span class="legend-muted"></span>試行なし／参考値</p>
+      </section>
+      <section id="map-grid" class="map-grid" aria-live="polite"></section>
+
+      <dialog id="detail-panel" class="detail-dialog" aria-labelledby="detail-title">
+        <div class="detail-heading">
+          <div>
+            <p class="eyebrow" id="detail-map-id"></p>
+            <h2 id="detail-title">構成の詳細</h2>
+          </div>
+          <button id="close-detail" class="button-quiet" type="button">閉じる</button>
+        </div>
+        <div class="detail-content">
+          <div class="detail-image-wrap" data-loaded="false">
+            <img id="detail-map-image" alt="" />
+            <span class="image-fallback">画像なし</span>
+          </div>
+          <div class="detail-data">
+            <p id="detail-configuration" class="configuration-summary"></p>
+            <p id="detail-summary"></p>
+            <div id="detail-history" class="history-list"></div>
+          </div>
+        </div>
+      </dialog>
+
+      <footer class="sample-footer">
+        <p>構成一覧の出典：<a href="https://wikiwiki.jp/splatoon_r/%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3">Splatoon RAIDERS Wiki* の無限食堂一覧</a>。初期配置には不正確な可能性がある旨の注記があります。</p>
+        <p>個人が制作した非公式の実装サンプルです。任天堂とは関係ありません。</p>
+      </footer>
+    </main>
+
+    <template id="map-card-template">
+      <button class="map-card" type="button">
+        <span class="map-image-wrap" data-loaded="false"><img loading="lazy" /><span class="image-fallback">画像なし</span></span>
+        <span class="map-card-content">
+          <span class="map-id"></span>
+          <span class="map-layout"></span>
+          <span class="map-spawns"></span>
+          <span class="map-rate"></span>
+          <span class="map-count"></span>
+        </span>
+      </button>
+    </template>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
